@@ -3,7 +3,7 @@ console.log("hello world");
 
 
 function handleSubmit(evt) {
-	evt.preventDefault();
+	// evt.preventDefault();
 	() => {
 		alert("Your form has been submitted successfully.")
 	}
@@ -12,7 +12,8 @@ function handleSubmit(evt) {
 
 let form = document.getElementById("contact");
 
-form.addEventListener('submit', handleSubmit);
+form.addEventListener('submit', () => {
+	alert("Your form has been submitted successfully.")});
 
 let pic = document.querySelector("#kitpic")
 
