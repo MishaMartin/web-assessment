@@ -1,0 +1,7 @@
+How does the internet work? What happens when you click on a link?
+
+The internet is a highly complicated and vast network. It is the means by which our computers can send and receive information from each other. I include the servers in the term computer. The internet uses a lot of different information to complete a request.
+
+When you click on a link, you are submitting a request. The request is searches your local DNS cache which is the fastest and closest option to complete the request. If it doesn't find it there, it will move to your local router DNS. it continues to move to the ISP DNS and then finally the Root DNS Server. Wherever it finds the information first will be where the information is sent from. It is sent in packets and sent to your computer. It can take many different routes to ensure that most or all of the packets make it to you. This also makes it possible for many people to download and make requests at one time. 
+
+Once the packets arrive at your device,the computer puts them in the correct order and downloads the information to your browser. Then you can interact with it again!
